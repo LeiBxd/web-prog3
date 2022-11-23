@@ -1,0 +1,60 @@
+
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #cc33cc; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #702acc; }
+    100% { background: #33CCCC; }
+}
+body {
+    background: #33CCCC; 
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+.fon{
+    text-align: center;
+    margin-top: 400px;
+
+}
+
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  a.button7:hover { background: rgb(53, 167, 110); }
+  a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+  
+.pole{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 20rem;
+
+
+}
+.stroki{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
