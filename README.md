@@ -1,1 +1,1 @@
-# web-prog3
+GITHUB ССЫЛКА https://leibxd.github.io/web-prog3/
